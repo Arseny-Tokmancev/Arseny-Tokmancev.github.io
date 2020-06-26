@@ -50,7 +50,7 @@ body {
 }
 .soc_buttons {
 	float: right;
-	background-color: #fff;
+	background-color: grey;
 	margin:0;
 }
 .soc_buttons i {
@@ -58,11 +58,13 @@ body {
 	font-size: 32px;
 	padding: 7px;
 	margin:0;
+
 }
 .soc_buttons a {
 	margin:0;
 	padding:0;
  	display: block;
+	background-color: #fff;
 }
 .soc_buttons i:hover {
 	background-color: #869098;
