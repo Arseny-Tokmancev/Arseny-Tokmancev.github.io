@@ -27,3 +27,42 @@ body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
 }
+
+.header_topline {
+	background-color: #43484C;
+	color: #fff;
+}
+.header_topline a {
+	color: #fff;
+}
+.top_links {
+	font-size: 20px;
+	float: left;
+	padding: 5px;
+}
+.top_links a {
+	text-decoration: underline;
+	text-underline-position: under;
+}
+.top_links a:hover {
+	text-decoration: none;
+	text-underline-position: unset;
+}
+.soc_buttons {
+	float: right;
+	background-color: #fff;
+	margin:0;
+}
+.soc_buttons i {
+	color: #43484C;
+	font-size: 32px;
+	padding: 7px;
+	margin:0;
+}
+.soc_buttons a {
+	margin:0;
+	padding:0;
+}
+.soc_buttons i:hover {
+	background-color: #869098;
+}
