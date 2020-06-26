@@ -62,6 +62,7 @@ body {
 .soc_buttons a {
 	margin:0;
 	padding:0;
+ 	display: block;
 }
 .soc_buttons i:hover {
 	background-color: #869098;
