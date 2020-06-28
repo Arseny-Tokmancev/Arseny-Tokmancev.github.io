@@ -21,32 +21,69 @@
 	<link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
-	<header>
-		<div class="top_header">
-			<div class="header_topline">
+	<header class="top-header">
+			<div class="header-topline">
 				 <div class="container">
-				 	 <div class="col-md-12">
-				 	 	<div class="row">
-				 	 		<div class="top_links">
-				 	 			<a href="#">Вход</a> /
-				 	 			<a href="#">Регистрация</a>
-				 	 		</div>
-				 	 		<div class="soc_buttons">
-				 	 			<a href="#">
-				 	 				<i class="fab fa-telegram-plane"></i>
-				 	 			</a>
-				 	 			<a href="#">
-				 	 				<i class="fab fa-vk"></i>
-				 	 			</a>
-				 	 			<a href="#">
-				 	 				<i class="fab fa-twitter"></i>
-				 	 			</a>
-				 	 		</div>
-				 	 	</div>
-				 	 </div>
+					 <div class="col-md-12">
+						<div class="row">
+							<div class="top-links-show soc-button hidden-lg hidden-md hidden-sm show-button">
+								<a href="#">
+									<i class="fas fa-user"></i>
+								</a>
+							</div>
+							<div class="top-links showing-menu">
+								<a href="#">Вход</a> /
+								<a href="#">Регистрация</a>
+							</div>
+							<div class="soc-buttons">
+								<div class="soc-button">
+									<a href="#">
+										<i class="fab fa-telegram-plane"></i>
+									</a>
+								</div>
+								<div class="soc-button">
+								<a href="#">
+									<i class="fab fa-vk"></i>
+								</a>
+								</div>
+								<div class="soc-button">
+								<a href="#">
+									<i class="fab fa-twitter"></i>
+								</a>
+								</div>
+							</div>
+						</div>
+					 </div>
 				 </div>
 			</div>
-		</div>
+			<div class="container">
+				<div class="col-md-12">
+					<div class="row">
+						<a href="#" class="logo">moDesign</a>
+						<nav class="main-menu clearfix">
+							<a href="#" class="show-menu-buttons hidden-lg hidden-md hidden-sm show-button">
+								<i class="fas fa-bars"></i>
+							</a>
+							<div class="menu-buttons showing-menu">
+								<ul>
+									<li class="active"><a href="#">Главная</a></li>
+									<li><a href="#">Приложения</a></li>
+									<li><a href="#">Портфолио</a></li>
+									<li><a href="#">Отзывы</a></li>
+								</ul>
+							</div>
+							<div class="top-contacts">
+								<a href="#">
+									<i class="fas fa-mobile-alt"></i>
+									<div class="">
+										8-800-2000-600
+									</div>
+								</a>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
 	</header>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -66,7 +103,7 @@
 	<script src="libs/countdown/jquery.countdown-ru.js"></script>
 	<script src="libs/landing-nav/navigation.js"></script>
 	<script src="js/common.js"></script>
-	<script>document.write('<script src="http://localhost:35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 	<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 	<!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>

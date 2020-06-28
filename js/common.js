@@ -1,4 +1,15 @@
 $(document).ready(function() {
+  
+  $(".top-links-show").click(function(){
+    $(this).next()
+    .css({ 
+      top: $(this).height()
+    })
+    .slideToggle()
+  });
+  $(".show-menu-buttons").click(function(){
+    $(this).next().slideToggle()
+  });
 
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html

@@ -12,16 +12,48 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-
+	.showing-menu {
+		display: none;
+		position: absolute;
+		z-index: 1;
+	}
+	.top-links {
+		background-color: #869098;
+		width: 100%;
+	}
+	.phone-number {
+		background-color: rgb(42, 58, 60);
+	}
+	div.menu-buttons {
+		display: none;
+		position: absolute;
+		z-index: 1;
+		background-color: #4AAAD2;
+		width: 100%
+	}
+	.menu-buttons ul {
+		display: block;
+	}
+	.menu-buttons a:hover {
+		background-color: #1a7196;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.menu-buttons ul>li {
+		display: block;
+	}
+	.menu-buttons ul {width: 100%}
+	.menu-buttons a {width: 100%}
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
+.top-links {
+	font-size: 17px;
+	padding: 7px;
+}  
 
 }
 
@@ -35,12 +67,15 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
-
+	
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+	.showing-menu {
+		display: block !important;
+	}
+	.
 }
 
 /* Medium Devices, Desktops */

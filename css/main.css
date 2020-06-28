@@ -27,45 +27,84 @@ body {
 	font-family: "RobotoRegular", sans-serif;
 	font-size: 16px;
 }
-
-.header_topline {
+a {
+	color: #fff;
+	transition: all .25s;
+}
+.header-topline {
 	background-color: #43484C;
 	color: #fff;
 }
-.header_topline a {
-	color: #fff;
-}
-.top_links {
+.top-links {
 	font-size: 20px;
 	float: left;
 	padding: 5px;
 }
-.top_links a {
+.top-links-show {
+	float: left;
+}
+.top-links a {
 	text-decoration: underline;
-	text-underline-position: under;
 }
-.top_links a:hover {
+.top-links a:hover {
 	text-decoration: none;
-	text-underline-position: unset;
 }
-.soc_buttons {
+.soc-buttons {
 	float: right;
-	background-color: grey;
-	margin:0;
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 0;
 }
-.soc_buttons i {
-	color: #43484C;
+.soc-button a {
+	color: #fff;
 	font-size: 32px;
 	padding: 7px;
-	margin:0;
-
 }
-.soc_buttons a {
-	margin:0;
-	padding:0;
- 	display: block;
-	background-color: #fff;
+.soc-button {
+	display: inline-block;
 }
-.soc_buttons i:hover {
+.soc-button a {
+	display: block;
+}
+.soc-button a:hover {
 	background-color: #869098;
+}
+.top-header {
+	background-color: #4AAAD2;
+}
+.logo {
+	display: block;
+	padding: 7px;
+	font-size: 23px;
+	text-align: center;
+	font-family: KaushanScript;
+}
+.main-menu {
+	color: #fff;
+	background-color: #1a7196;
+}
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: left;
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 0;
+}
+.top-contacts {
+	float: right;
+}
+.top-contacts div {
+	display: inline-block;
+}
+.main-menu ul>li {
+	display: inline-block;
+}
+.main-menu a {
+	padding: 15px 10px;
+	display: inline-block;
+}
+.main-menu a:hover {
+	background-color: #4AAAD2;
 }
