@@ -82,6 +82,7 @@ a {
 .main-menu {
 	color: #fff;
 	background-color: #1a7196;
+	text-transform: uppercase;
 }
 .main-menu ul {
 	margin: 0;
@@ -107,4 +108,9 @@ a {
 }
 .main-menu a:hover {
 	background-color: #4AAAD2;
+}
+h1 {
+	color: #fff;
+	text-align: center;
+	font-family: RobotoLight;
 }
