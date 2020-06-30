@@ -14,14 +14,16 @@
 	color: #666;
 	opacity: 1;
 }
-
+:focus {
+	border: #000 1px solid;
+}
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
-	
+	border: red 1px solid;
 }
 body input:required:valid,
 body textarea:required:valid {
-	
+	border: green 1px solid;
 }
 body {
 	font-family: "RobotoRegular", sans-serif;
@@ -123,4 +125,56 @@ h1 {
 	display: block;
 	width: 100%;
 	object-fit: cover; 
+}
+.order {
+	background-color: #eee;
+	padding: 25px 0;
+}
+.sell-desc {
+	font-size: 22px;
+	vertical-align: middle;
+	display: block;
+	padding-top: 5px;
+	text-align: center;
+}
+.button {
+	display: block;
+	border: none;
+	background-color: #2bc6a4;
+	padding: 10px 20px;
+	border-radius: 7px;
+	text-transform: uppercase;
+}
+a.button {
+	display: table;
+}
+.button:hover {
+	background-color: #6df5d7;
+}
+.button:active {
+	background-color: #1d8870;
+}
+
+.sell-right .button {
+	float: right;
+}
+
+.hidden {
+	display: none;
+}
+.pop-form h3 {
+	margin: 10px auto 15px;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+}
+.pop-form input[type="text"] {
+	display: block;
+	width: 90%;
+	line-height: 24px;
+	margin: 0 auto 12px;
+	border: #999 1px solid;
+}
+.pop-form .button {
+	margin: 15px auto 0;
 }

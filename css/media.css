@@ -7,7 +7,11 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+.sell-right .button {
+	float: none;
+	margin: 15px auto;
+	text-align: center;
+}
 }
 
 /* Small Devices, Tablets */
