@@ -37,6 +37,9 @@
 	.menu-buttons a:hover {
 		background-color: #1a7196;
 	}
+	.swiper-container img {
+		height: 200px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -49,6 +52,9 @@
 		border: 1px solid #fff;
 	}
 	.menu-buttons a {width: 100%}
+	.swiper-container img {
+		height: 150px;
+	}
 }
 
 /* Custom, iPhone Retina */
@@ -56,7 +62,10 @@
 .top-links {
 	font-size: 17px;
 	padding: 7px;
-}  
+}  	
+	.swiper-container img {
+		height: 100px;
+	}
 
 }
 

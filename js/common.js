@@ -47,25 +47,32 @@ $(document).ready(function() {
 	});
 
 	//Каруселька
-	//Документация: http://owlgraphic.com/owlcarousel/
-	var owl = $(".carousel");
-	owl.owlCarousel({
-		items : 4
-	});
-	owl.on("mousewheel", ".owl-wrapper", function (e) {
-		if (e.deltaY > 0) {
-			owl.trigger("owl.prev");
-		} else {
-			owl.trigger("owl.next");
-		}
-		e.preventDefault();
-	});
-	$(".next_button").click(function(){
-		owl.trigger("owl.next");
-	});
-	$(".prev_button").click(function(){
-		owl.trigger("owl.prev");
-	});
+	//Документация: https://github.com/ganlanyuan/tiny-slider/
+
+	var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 1,
+      spaceBetween: 5,
+      resistance: false,
+      autoHeight: true,
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: true,
+      },
+      scrollbar: {
+        el: '.swiper-scrollbar',
+        draggable: true
+      },
+	  breakpoints: {
+	    // when window width is >= 480px
+	    480: {
+	      slidesPerView: 2
+	    },
+	    // when window width is >= 640px
+	    768: {
+	      slidesPerView: 3,
+	    }
+	  }
+    });
 
 	//Кнопка "Наверх"
 	//Документация:

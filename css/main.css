@@ -74,8 +74,8 @@ a {
 }
 .logo {
 	display: block;
-	padding: 7px;
-	font-size: 23px;
+	padding: 10px;
+	font-size: 46px;
 	text-align: center;
 	font-family: KaushanScript;
 }
@@ -113,4 +113,14 @@ h1 {
 	color: #fff;
 	text-align: center;
 	font-family: RobotoLight;
+}
+.slider-container {
+	display: block;
+	max-width: 100%
+}
+.swiper-container img{
+	height: 300px;
+	display: block;
+	width: 100%;
+	object-fit: cover; 
 }
