@@ -178,3 +178,26 @@ a.button {
 .pop-form .button {
 	margin: 15px auto 0;
 }
+.blog-item a {
+	color: #4AAAD2;
+	text-decoration: underline;
+}
+.blog-item a:hover {
+	text-decoration: none;
+}
+.blog-item img {
+	width: 100%;
+	display: block;
+	object-fit: cover; 
+	max-height: 400px;
+}
+.blog-item {
+	margin: 15px 0;
+}
+.table-of-contents {
+	background-color: #eee;
+	border-radius: 10px;
+	padding: 2px 0;
+	color: #fff;
+	margin: 30px 0 0;
+}
