@@ -101,4 +101,5 @@ $(document).ready(function() {
 		return false;
 	});
 
+	$("img, a").on("dragstart", function(event) { event.preventDefault(); });
 });
