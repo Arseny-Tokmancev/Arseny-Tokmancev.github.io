@@ -19,7 +19,6 @@ html {
 }
 :focus {
 	outline: none;
-	border: #000 1px solid;
 }
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
